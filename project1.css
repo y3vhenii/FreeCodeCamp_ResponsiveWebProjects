@@ -1,0 +1,41 @@
+body {
+    background: #D0D3D4;
+  }
+  h1{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  p{
+    text-align: center;
+  }
+  ul{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  #image{
+    border-radius: 10px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  footer{
+    text-align: center;
+  }
+  #img-div{
+    text-align: center;
+  }
+  #tribute-info{
+    max-width: 550px;
+    margin: 0 auto;
+    background: #F0F3F4;
+    text-align: left;
+    padding: 5px;
+  }
