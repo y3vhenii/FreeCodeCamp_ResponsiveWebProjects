@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#askingQuestions{
+    max-width: 500px;
+    margin: auto;
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 5px;
+}
+#comments{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+}
+#nameEmailNum{
+    width: 300px;
+}
+#name{
+    margin-bottom: 5px;
+}
+#email{
+    margin-bottom: 5px;
+}
+#number{
+    margin-bottom: 5px;
+}
+

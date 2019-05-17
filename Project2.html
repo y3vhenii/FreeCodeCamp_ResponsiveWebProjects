@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Project 2</title>
+  <!--  Styles  -->
+  <link rel="stylesheet" href="project2.css">
+</head>
+<body>
+  <h1 id="title"> Survey Form </h1>
+  <p id="description"><strong>Let us know how we can improve freeCodeCamp</strong></p>
+  <div id="askingQuestions">
+    <form id="survey-form">
+        <div id="nameEmailNum">
+            <label id="name-label">Name: </label> <br> <input id="name" type="text" placeholder="Enter your name here..." required> <br>
+            <label id="email-label">Email: </label> <br> <input id="email" type="email" placeholder="Enter your email here..." required> <br>
+            <label id="number-label">Age: </label> <br> <input id="number" type="number" placeholder="Age..." min=1 max=100> <br>
+        </div>
+        <label id="role">Which option best describes your current role?</label> 
+        <select name="role" id="dropdown">
+            <option value="Student">Student</option>
+            <option value="Full Time Job">Full Time Job</option>
+            <option value="full time learner">Full Time Learner</option>
+            <option value="not to say">Prefer not to say</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+        <label id="howLikely">How likely is that you would recommend freeCodeCamp to a friend?</label> <br>
+        <input type="radio" id="definitely" name="how" value="def"> <label>Definitely</label> <br>
+        <input type="radio" id="maybe" name="how" value="mby"> <label>Maybe</label> <br>
+        <input type="radio" id="notSure" name="how" value="ntsr"> <label>Not Sure</label> <br><br>
+
+        <label id="likeTheMost">What do you like the most in FCC:</label>
+        <select name="likeMost" id="pickTheMostLikelyReason">
+            <option value="Challenges">Challenges</option>
+            <option value="Projects">Projects</option>
+            <option value="Community">Community</option>
+            <option value="OpenSource">Open Source</option> 
+        </select>
+        <br> <br>
+        <label id="toImprove">Things that should be improved in the future (Check all that apply):</label> <br>
+
+        <input type="checkbox" name="fntEnd" value="frontEnd">              <label for="fntEnd">Front End</label> <br>
+        <input type="checkbox" name="bckEnd" value="backEnd">               <label for="bckEnd">Back End</label> <br>
+        <input type="checkbox" name="dataViz" value="dataVisualisation">    <label for="dataViz">Data Visualisation</label> <br>
+        <input type="checkbox" name="chlng" value="challenges">             <label for="chlng">Challenges</label> <br>
+        <input type="checkbox" name="opsrc" value="openSourceCommunity">    <label for="opsrc">Open Source Community</label> <br>
+        <input type="checkbox" name="gitrhlprms" value="gitterHelpRooms">   <label for="gitrhlprms">Gitter Help Rooms</label> <br>
+        <input type="checkbox" name="vdos" value="videos">                  <label for="vdos">Videos</label> <br>
+        <input type="checkbox" name="cityMtups" value="cityMeetUps">        <label for="cityMtups">City Meet Ups</label> <br>
+        <input type="checkbox" name="wiki" value="wiki">                    <label for="wiki">Wiki</label> <br>
+        <input type="checkbox" name="frm" value="forum">                    <label for="frm">Forum</label> <br>
+        <input type="checkbox" name="addnlcrs" value="additionalCourses">   <label for="addnlcrs">Additional Courses</label> <br><br>
+
+        <textarea id="comments">Enter comments here...</textarea> <br><br>
+        <button id="submit" value="submit">Submit</button>
+    </form> 
+</div>
+  <!-- Scripts -->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+    
+</html>
