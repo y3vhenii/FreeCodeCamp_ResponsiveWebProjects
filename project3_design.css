@@ -1,0 +1,49 @@
+#main{
+    margin-top: 55px;
+    text-align: center;
+}
+#form{
+    text-align: center;
+}
+#submit{
+    margin-top: 5px;
+}
+#videoFile {
+    clear: both;
+    text-align: center;
+}
+#wrapper{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+}
+.prc{
+    margin: 20px;
+    border: 2px solid;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+#header {
+    width: 100%;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+}
+.features{
+    text-align: center;
+}
+#header-img{
+    max-width: 300px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    #header{
+        background-color: lightblue;
+    }
+    .prc{
+        background-color: lightblue;
+    }
+  }
